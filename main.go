@@ -47,8 +47,8 @@ func main() {
 		fmt.Printf("  Lat: %d semicircles\n", activity.Records[i].PositionLat)
 		fmt.Printf("  Long: %d semicircles\n", activity.Records[i].PositionLong)
 		fmt.Printf("  Speed: %g m/s\n", activity.Records[i].SpeedScaled())
-		fmt.Printf("  HeartRate: %d bpm\n", activity.Records[i].HeartRate)
-		fmt.Printf("  Cadence: %d rpm\n", activity.Records[i].Cadence)
+		fmt.Printf("  Average HeartRate: %d bpm\n", activity.Records[i].HeartRate)
+		fmt.Printf("  Average Cadence: %d rpm\n", activity.Records[i].Cadence*2)
 	}
 
 }
