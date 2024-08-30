@@ -17,9 +17,6 @@ func main() {
 
 	dec := decoder.New(f)
 
-	if err != nil {
-		panic(err)
-	}
 	/*
 		fmt.Printf("FileHeader DataSize: %d\n", fit.FileHeader.DataSize)
 		fmt.Printf("Messages count: %d\n", len(fit.Messages))
